@@ -2,8 +2,8 @@ const canvas = document.getElementById('canvas1') // Obtainig the canvas id
 const ctx = canvas.getContext('2d') // Setting a 2d context to draw
 
 const resolution = 10 // the size of each square
-canvas.width = 800
-canvas.height = 800
+canvas.width = 1500
+canvas.height = 700
 
 const COLUMNS = canvas.width / resolution
 const ROWS = canvas.height / resolution
